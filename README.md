@@ -1,7 +1,3 @@
-# docker-react-complex
+# multi-docker-training
 
-![Architecture](https://github.com/bradsorour/docker-react-complex/blob/master/images/architecture.png)
-
-### setup
-
-![Multi Container Setup](https://github.com/bradsorour/docker-react-complex/blob/master/images/multi-container-setup.png)
+![Architecture](https://github.com/bradsorour/multi-docker-training/blob/master/resources/images/k8s-multi-docker.png)
