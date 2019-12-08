@@ -11,6 +11,6 @@ docker push bradsorour/multi-server:$SHA
 docker push bradsorour/multi-worker:$SHA
 
 kubectl apply -f k8s
-kubectl set image deployments/client-deployment server=bradsorour/multi-client:$SHA
 kubectl set image deployments/server-deployment server=bradsorour/multi-server:$SHA
+kubectl set image deployments/client-deployment server=bradsorour/multi-client:$SHA
 kubectl set image deployments/worker-deployment server=bradsorour/multi-worker:$SHA
