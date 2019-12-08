@@ -1,3 +1,5 @@
-# multi-docker-training
+# multi-k8s
 
-![Architecture](https://github.com/bradsorour/multi-docker-training/blob/master/resources/images/k8s-multi-docker.png)
+Kubernetes on Google Cloud
+
+![Architecture](https://github.com/bradsorour/multi-k8/blob/master/resources/images/k8s-multi-docker.png)
