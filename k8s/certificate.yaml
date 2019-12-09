@@ -1,0 +1,20 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+    name: brad-tech-net-tls
+spec:
+    secretName: brad-tech-net
+    issuerRef:
+        name: letsencrypt-prod
+        kind: ClusterIssuer
+    commonName: brad-tech.net
+    dnsNames:
+        - brad-tech.net
+        - www.brad-tech.net
+    acme:
+        config:
+            - http01:
+                ingressClass: nginx
+              domains:
+                - brad-tech.net
+                - www.brad-tech.net
