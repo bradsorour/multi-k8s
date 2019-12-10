@@ -12,5 +12,6 @@ Multi Container Setup with Kubernetes on Google Cloud.
 
 ![Architecture](https://github.com/bradsorour/multi-k8s/blob/master/resources/images/k8s-multi-docker.png)
 
+HTTPS requests handled with LetsEncrypt.
 
 Hosted project accessible here: www.brad-tech.net
