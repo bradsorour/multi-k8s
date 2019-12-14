@@ -14,4 +14,4 @@ Multi Container Setup with Kubernetes on Google Cloud.
 
 HTTPS requests handled with LetsEncrypt.
 
-Hosted project accessible here: www.brad-tech.net
+Hosted project (was) accessible here: www.brad-tech.net
